@@ -17,7 +17,6 @@ import {
 import Link from "next/link";
 import Image from "next/image";
 import { useClerk } from "@clerk/nextjs";
-
 interface itemProps {
   title: string;
   to: string;
@@ -116,8 +115,8 @@ const Sidebar = ({ selected, setSelected }: Props) => {
                 ml="15px"
               >
                 <Link href="/" className="block">
-                  <h3 className="text-[25px] font-Poppins uppercase text-white">
-                    Becodemy
+                  <h3 className="text-[25px] font-Poppins text-white">
+                    <span className="text-[#64ff4c]">Ai</span>-PromptHub
                   </h3>
                 </Link>
                 <IconButton
@@ -138,7 +137,7 @@ const Sidebar = ({ selected, setSelected }: Props) => {
                   width={100}
                   height={100}
                   src={
-                    "https://res.cloudinary.com/dkg6jv4l0/image/upload/v1688418919/avatars/sbtiws3u7astteqrvalt.jpg"
+                    "https://res.cloudinary.com/dk26ehhez/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1711129478/IMG_2767-01_vccxqi.jpg"
                   }
                   style={{
                     cursor: "pointer",
@@ -153,7 +152,7 @@ const Sidebar = ({ selected, setSelected }: Props) => {
                   className="!text-[20px]  text-[#ffffffc1]"
                   sx={{ m: "10px 0 0 0" }}
                 >
-                  Shahriar Sajeeb
+                  Ajinkya Bhalerao
                 </Typography>
                 <Typography
                   variant="h6"
