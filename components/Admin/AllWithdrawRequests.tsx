@@ -53,11 +53,11 @@ const AllWithdrawRequests = () => {
   const rows = [
     {
       id: "123456",
-      name: "John Doe",
-      email: "support@becodemy.com",
+      name: "Demo Account",
+      email: "support@ai-prompthub.com",
       status: "pending",
-      amount: "$100",
-      created_at: "2022-01-01",
+      amount: "$50",
+      created_at: "03-22-2024",
     },
   ];
 
